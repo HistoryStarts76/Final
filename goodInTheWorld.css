@@ -1,0 +1,133 @@
+body {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(white, white, lightgray);
+}
+
+.header {
+padding: 150px;
+height: 150px;
+text-align: center;
+font-size: x-large;
+background-image: url("community1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+color: white;
+border-bottom: 2px solid black;
+}
+
+.headerHighlight {
+    background-color: black;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: goldenrod; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.quoteOfTheDay {
+    text-align: center;
+    /* background-image: url("nature1.jpg"); */
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    background-color: whitesmoke;
+    width: 75%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+}
+
+.spacer {
+    padding: 5px;
+}
+
+.game {
+    background-color: whitesmoke;
+    width: 75%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* display: flex;  */
+    /* justify-content: center; */
+    padding: 5px;
+}
+
+.gameStuff {
+    display: flex;
+}
+.challengeHeader{
+text-align: center;
+}
+/* QUESTIONS FOR CHALLENGE */
+.questions {
+    background-color: goldenrod;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+/* BUTTONS FOR CHALLENGE */
+.btngroup{
+    margin-left:100px;
+    min-width: fit-content;
+}
+
+.btngroup .button {
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    font-family: monospace;
+}
+
+.btngroup .button:hover {
+    background-color: darkgray;
+  }

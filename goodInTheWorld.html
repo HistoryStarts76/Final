@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Doing Good</title>   
+        <link rel="stylesheet" href="goodInTheWorld.css">
+    </head>
+    <body>
+        <!--THIS IS THE START OF THE HEADER-->
+        <div class="header"> <!--class header is to stylize the whole header-->
+            <div class="headerSlide"> <!--class headerSlide to to auto rotate the text-->
+                <h2>
+                <span class="headerHighlight"> <!--class headerHighlight is to stylize the text's backgrou-->
+                We all have limited time.
+                </span>
+                </h2>
+            </div>
+
+            <div class="headerSlide">
+                <h2>
+                <span class="headerHighlight">
+                Why not do as much good as possible?
+                </span>
+                </h2>
+            </div>
+
+            <div class="headerSlide">
+                <h2>
+                <span class="headerHighlight">
+                What good will you do?
+                </span>
+                </h2>
+            </div>
+        </div> 
+        <!--THIS IS THE END OF THE HEADER-->
+        <div class="navbar" id="navbar">
+                <a class="" href="">Top</a>
+                <a href="#why">Why</a>
+                <a href="#game">Challenge</a>
+          </div>
+        <!--THIS IS THE START OF THE SPACER-->
+        <div class="spacer">
+        </div>
+        <!--THIS ENDS THE SPACER-->
+        <!--THIS IS THE START OF "QUOTE OF THE DAY"-->
+        <div class="quoteOfTheDay">
+            <h2>Quote of the day:</h2>
+            <p id=qOTD></p>
+        </div>
+        <!--THIS IS THE END OF "QUOTE OF THE DAY"-->
+        <div class="spacer"></div>
+        <!--THIS STARTS THE ABOUT SECTION-->
+        <div class="quoteOfTheDay" id="why">
+            <h2>Why do good?</h2>
+            <p>
+                Here is some filler text that stands in the place of a good reason to do good...
+            </p>
+        </div>
+        <div class="spacer"></div>
+        <!--HERE IS THE START OF THE CHALLENEGE GAME-->
+        <div class="game" id="game">
+            <div class="challengeHeader">
+                <h2>Challenge for Good:</h2>
+                
+            </div>
+
+            <div class="gameStuff">
+                <div class="questions"> 
+                    <p>Challenge yourself to get three in a row today.</p>
+                    <p id="chalA1"></p>
+                    <p id="chalA2"></p>
+                    <p id="chalA3"></p>
+                    <p id="chalB1"></p>
+                    <p id="chalB2"></p>
+                    <p id="chalB3"></p>
+                    <p id="chalC1"></p>
+                    <p id="chalC2"></p>
+                    <p id="chalC3"></p>
+                </div>
+
+                <div class="btngroup">
+                    <input type="button" class=button id="buttonA1" value = "A1" style= "color:black" onclick="setColorA1('buttonA1', 'gray')";/>
+                    <input type="button" class=button id="buttonA2" value = "A2" style= "color:black" onclick="setColorA2('buttonA2', 'gray')";/>
+                    <input type="button" class=button id="buttonA3" value = "A3" style= "color:black" onclick="setColorA3('buttonA3', 'gray')";/>
+                
+                    <p style="clear:both"></p>
+                
+                    <input type="button" class=button id="buttonB1" value = "B1" style= "color:black" onclick="setColorB1('buttonB1', 'gray')";/>
+                    <input type="button" class=button id="buttonB2" value = "B2" style= "color:black" onclick="setColorB2('buttonB2', 'gray')";/>
+                    <input type="button" class=button id="buttonB3" value = "B3" style= "color:black" onclick="setColorB3('buttonB3', 'gray')";/>
+                
+                    <p style="clear:both"></p>
+                
+                    <input type="button" class=button id="buttonC1" value = "C1" style= "color:black" onclick="setColorC1('buttonC1', 'gray')";/>
+                    <input type="button" class=button id="buttonC2" value = "C2" style= "color:black" onclick="setColorC2('buttonC2', 'gray')";/>
+                    <input type="button" class=button id="buttonC3" value = "C3" style= "color:black" onclick="setColorC3('buttonC3', 'gray')";/>
+
+                    <p style="clear:both"></p>
+                </div>
+            </div>
+        </div>
+        <!--THIS IS THE FOOTER-->
+        <div class="footer">
+            <p>Choose <b>Good</b><br> Live <b>Rich</span></b></p>
+        </div>
+        <script src="goodInTheWorld.js"></script> <!--HERE IS THE LINK TO JAVASCRIPT-->
+    </body>
+</html>
